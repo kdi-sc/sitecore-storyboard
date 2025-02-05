@@ -10,7 +10,7 @@ export default function Home() {
       <div className="container mx-auto p-4 py-8">
         <h1 className="text-4xl font-bold mb-6 text-center text-primary">Sitecore's Intelligent DXP</h1>
         <p className="text-center text-lg mb-8 text-gray-600">
-          Explore how Sitecore empowers different roles in your organization through brand aware AI copilots 
+          Explore how Sitecore empowers different roles in your organization through grounded generative AI and brand-aware copilots
         </p>
         <Tabs defaultValue="specialist" className="w-full">
           <TabsList className="grid w-full grid-cols-3 rounded-xl bg-secondary p-1">
