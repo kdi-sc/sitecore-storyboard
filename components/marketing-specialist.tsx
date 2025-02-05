@@ -6,7 +6,7 @@ import { Edit, Eye, Globe, ImageIcon, Users, Cable } from "lucide-react"
 export default function MarketingSpecialist() {
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 md:grid-cols-4">
+      <div className="grid grid-cols-1 pb-2 md:grid-cols-4 md:gap-6">
         <Card className="col-span-3 bg-white/80 mb-2 backdrop-blur-sm border-none shadow-lg">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-2 text-primary">Division Level Marketing Specialist</h2>

@@ -6,7 +6,7 @@ import { History, LayoutDashboard, Settings, Shield, Zap } from "lucide-react"
 export default function CorporateMarketing() {
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 pb-2 md:grid-cols-4 md:gap-6">
         <Card className="col-span-3 bg-white/80 backdrop-blur-sm border-none shadow-lg">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-2 text-primary">Corporate Office Marketing Team Member</h2>
@@ -50,10 +50,10 @@ export default function CorporateMarketing() {
                 Analytics
               </TabsTrigger>
               <TabsTrigger value="customization" className="rounded-md py-2 text-sm">
-              No-code Components
+                No-code Components
               </TabsTrigger>
               <TabsTrigger value="content-blocks" className="rounded-md py-2 text-sm">
-               Brand Consistency
+                Brand Consistency
               </TabsTrigger>
             </TabsList>
             <TabsContent value="audit" className="mt-6">

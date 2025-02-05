@@ -6,7 +6,7 @@ import { Eye, Globe, LayoutDashboard, Users, Zap } from "lucide-react"
 export default function MarketingDirector() {
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 pb-2 md:grid-cols-4">
+      <div className="grid grid-cols-1 pb-2 md:grid-cols-4 md:gap-6">
         <Card className="col-span-3 border-none bg-white/80 shadow-lg backdrop-blur-sm">
           <CardContent className="p-6">
             <h2 className="mb-2 text-2xl font-bold text-primary">Division Level Marketing Director</h2>
