@@ -47,16 +47,13 @@ export default function CorporateMarketing() {
                 Audit History
               </TabsTrigger>
               <TabsTrigger value="diagnostics" className="rounded-md py-2 text-sm">
-                Feed Diagnostics
+                Analytics
               </TabsTrigger>
               <TabsTrigger value="customization" className="rounded-md py-2 text-sm">
-                CMS Customization
+              No-code Components
               </TabsTrigger>
               <TabsTrigger value="content-blocks" className="rounded-md py-2 text-sm">
-                Custom Content Blocks
-              </TabsTrigger>
-              <TabsTrigger value="data-validation" className="rounded-md py-2 text-sm">
-                Data Validation
+               Brand Consistency
               </TabsTrigger>
             </TabsList>
             <TabsContent value="audit" className="mt-6">
@@ -80,7 +77,7 @@ export default function CorporateMarketing() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/explorer.png?height=300&width=600"
                   alt="Audit History Screenshot"
                   width={600}
                   height={300}
@@ -91,7 +88,7 @@ export default function CorporateMarketing() {
             <TabsContent value="diagnostics" className="mt-6">
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Advanced Feed Diagnostics</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Advanced Analytics</h3>
                   <p className="text-gray-600 mb-4">Tools to easily diagnose and resolve feed issues.</p>
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-primary">
@@ -109,7 +106,7 @@ export default function CorporateMarketing() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/analytics.png?height=300&width=600"
                   alt="Feed Diagnostics Screenshot"
                   width={600}
                   height={300}
@@ -120,7 +117,7 @@ export default function CorporateMarketing() {
             <TabsContent value="customization" className="mt-6">
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">No-Code CMS Customization</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">No-Code Components</h3>
                   <p className="text-gray-600 mb-4">
                     Empower marketing teams to modify CMS functionality without developer support.
                   </p>
@@ -140,7 +137,7 @@ export default function CorporateMarketing() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/component-builder.png?height=300&width=600"
                   alt="CMS Customization Screenshot"
                   width={600}
                   height={300}
@@ -151,7 +148,7 @@ export default function CorporateMarketing() {
             <TabsContent value="content-blocks" className="mt-6">
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Custom Content Block Creator</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Brand Consistency</h3>
                   <p className="text-gray-600 mb-4">
                     Build and manage reusable content blocks without developer intervention.
                   </p>
@@ -171,39 +168,8 @@ export default function CorporateMarketing() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/brand-assistant.png?height=300&width=600"
                   alt="Custom Content Blocks Screenshot"
-                  width={600}
-                  height={300}
-                  className="rounded-lg shadow-md"
-                />
-              </div>
-            </TabsContent>
-            <TabsContent value="data-validation" className="mt-6">
-              <div className="grid md:grid-cols-2 gap-6 items-center">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Intelligent Data Validation</h3>
-                  <p className="text-gray-600 mb-4">
-                    Automated checks to ensure data integrity and prevent feed generation issues.
-                  </p>
-                  <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-primary">
-                      <Shield className="w-5 h-5" />
-                      <span>Real-time input validation with clear error messages</span>
-                    </li>
-                    <li className="flex items-center gap-2 text-primary">
-                      <Zap className="w-5 h-5" />
-                      <span>Automated removal of special characters from sensitive fields</span>
-                    </li>
-                    <li className="flex items-center gap-2 text-primary">
-                      <Settings className="w-5 h-5" />
-                      <span>Customizable validation rules for different content types</span>
-                    </li>
-                  </ul>
-                </div>
-                <Image
-                  src="/placeholder.svg?height=300&width=600"
-                  alt="Data Validation Screenshot"
                   width={600}
                   height={300}
                   className="rounded-lg shadow-md"
