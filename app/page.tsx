@@ -6,7 +6,7 @@ import { UserCircle, Users, Building2 } from "lucide-react"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-100 via-white to-gray-200">
+    <main className="min-h-screen bg-gradient-subtle via-white to-gray-200">
       <div className="container mx-auto p-4 py-8">
         <h1 className="text-4xl font-bold mb-6 text-center text-primary">Sitecore CMS Experience</h1>
         <p className="text-center text-lg mb-8 text-gray-600">

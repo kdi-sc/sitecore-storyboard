@@ -6,8 +6,8 @@ import { History, LayoutDashboard, Settings, Shield, Zap } from "lucide-react"
 export default function CorporateMarketing() {
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <Card className="col-span-3 bg-white/80 backdrop-blur-sm border-none shadow-lg">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-2 text-primary">Corporate Office Marketing Team Member</h2>
             <p className="text-gray-600 mb-4">

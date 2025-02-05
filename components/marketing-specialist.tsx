@@ -6,8 +6,8 @@ import { Edit, Eye, Globe, ImageIcon, Users } from "lucide-react"
 export default function MarketingSpecialist() {
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <Card className="col-span-3 bg-white/80 backdrop-blur-sm border-none shadow-lg">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-2 text-primary">Division Level Marketing Specialist</h2>
             <p className="text-gray-600 mb-4">Junior marketer working on content creation and submission for review.</p>
@@ -29,10 +29,10 @@ export default function MarketingSpecialist() {
         </Card>
         <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg overflow-hidden">
           <Image
-            src="/placeholder.svg?height=400&width=600"
+            src="/placeholder.svg?height=200&width=300"
             alt="Marketing Specialist Dashboard"
-            width={600}
-            height={400}
+            width={200}
+            height={300}
             className="object-cover w-full h-full"
           />
         </Card>
