@@ -41,7 +41,7 @@ export default function MarketingDirector() {
       </div>
       <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg">
         <CardContent className="p-6">
-          <Tabs defaultValue="preview" className="w-full">
+          <Tabs defaultValue="authoring" className="w-full">
             <TabsList className="grid w-full grid-cols-3 lg:grid-cols-5 rounded-lg bg-secondary p-1">
               <TabsTrigger value="authoring" className="rounded-md py-2 text-sm">
                 Simplified, AI Enabled Authoring
