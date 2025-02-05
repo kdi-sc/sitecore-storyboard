@@ -29,7 +29,7 @@ export default function MarketingSpecialist() {
         </Card>
         <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg overflow-hidden">
           <Image
-            src="/placeholder.svg?height=200&width=300"
+            src="/marketing-specialist.png?height=200&width=300"
             alt="Marketing Specialist Dashboard"
             width={200}
             height={300}

@@ -31,7 +31,7 @@ export default function CorporateMarketing() {
         </Card>
         <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg overflow-hidden">
           <Image
-            src="/placeholder.svg?height=400&width=600"
+            src="/corporate-marketing.png?height=400&width=600"
             alt="Corporate Marketing Dashboard"
             width={600}
             height={400}

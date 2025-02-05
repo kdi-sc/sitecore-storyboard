@@ -31,7 +31,7 @@ export default function MarketingDirector() {
         </Card>
         <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg overflow-hidden">
           <Image
-            src="/placeholder.svg?height=400&width=600"
+            src="/marketing-director.png?height=400&width=600"
             alt="Marketing Director Dashboard"
             width={600}
             height={400}
