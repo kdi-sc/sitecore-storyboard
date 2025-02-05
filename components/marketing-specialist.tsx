@@ -6,8 +6,8 @@ import { Edit, Eye, Globe, ImageIcon, Users, Cable } from "lucide-react"
 export default function MarketingSpecialist() {
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-        <Card className="col-span-3 bg-white/80 backdrop-blur-sm border-none shadow-lg">
+      <div className="grid grid-cols-1 md:grid-cols-4">
+        <Card className="col-span-3 bg-white/80 mb-2 backdrop-blur-sm border-none shadow-lg">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-2 text-primary">Division Level Marketing Specialist</h2>
             <p className="text-gray-600 mb-4">Junior marketer working on content creation and submission for review.</p>
@@ -40,20 +40,20 @@ export default function MarketingSpecialist() {
       <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg">
         <CardContent className="p-6">
           <Tabs defaultValue="navigation" className="w-full">
-            <TabsList className="grid w-full grid-cols-3 lg:grid-cols-5 rounded-lg bg-secondary p-1">
-              <TabsTrigger value="navigation" className="rounded-md py-2 text-sm text-wrap">
+            <TabsList className="grid w-full grid-cols-2 lg:grid-cols-5 rounded-lg bg-secondary p-1">
+              <TabsTrigger value="navigation" className="rounded-md py-2 text-xs md:text-sm text-wrap">
                 AI Enabled Task Management
               </TabsTrigger>
-              <TabsTrigger value="authoring" className="rounded-md py-2 text-sm text-wrap">
+              <TabsTrigger value="authoring" className="rounded-md py-2 text-xs md:text-sm text-wrap">
                 Content Authoring and Experimentation
               </TabsTrigger>
-              <TabsTrigger value="preview" className="rounded-md py-2 text-sm text-wrap">
+              <TabsTrigger value="preview" className="rounded-md py-2 text-xs md:text-sm text-wrap">
                 Live Preview
               </TabsTrigger>
-              <TabsTrigger value="dam" className="rounded-md py-2 text-sm text-wrap">
+              <TabsTrigger value="dam" className="rounded-md py-2 text-xs md:text-sm text-wrap">
                 DAM Integration
               </TabsTrigger>
-              <TabsTrigger value="workflow" className="rounded-md py-2 text-sm text-wrap">
+              <TabsTrigger value="workflow" className="rounded-md py-2 text-xs md:text-sm text-wrap">
                 Authoring Workflow
               </TabsTrigger>
             </TabsList>

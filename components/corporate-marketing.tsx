@@ -31,7 +31,7 @@ export default function CorporateMarketing() {
         </Card>
         <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg overflow-hidden">
           <Image
-            src="/corporate-marketing.png?height=400&width=600"
+            src="/marketing-team-member.png?height=400&width=600"
             alt="Corporate Marketing Dashboard"
             width={600}
             height={400}
@@ -42,7 +42,7 @@ export default function CorporateMarketing() {
       <Card className="bg-white/80 backdrop-blur-sm border-none shadow-lg">
         <CardContent className="p-6">
           <Tabs defaultValue="audit" className="w-full">
-            <TabsList className="grid w-full grid-cols-3 lg:grid-cols-5 rounded-lg bg-secondary p-1">
+            <TabsList className="grid w-full grid-cols-2 lg:grid-cols-5 rounded-lg bg-secondary p-1">
               <TabsTrigger value="audit" className="rounded-md py-2 text-sm">
                 Audit History
               </TabsTrigger>
