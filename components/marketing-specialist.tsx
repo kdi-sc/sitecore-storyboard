@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Image from "next/image"
-import { Edit, Eye, Globe, ImageIcon, Users } from "lucide-react"
+import { Edit, Eye, Globe, ImageIcon, Users, Cable } from "lucide-react"
 
 export default function MarketingSpecialist() {
   return (
@@ -42,10 +42,10 @@ export default function MarketingSpecialist() {
           <Tabs defaultValue="navigation" className="w-full">
             <TabsList className="grid w-full grid-cols-3 lg:grid-cols-5 rounded-lg bg-secondary p-1">
               <TabsTrigger value="navigation" className="rounded-md py-2 text-sm">
-                CMS Navigation
+                AI Enabled Task Management
               </TabsTrigger>
               <TabsTrigger value="authoring" className="rounded-md py-2 text-sm">
-                Content Authoring
+                Content Authoring and Experimentation 
               </TabsTrigger>
               <TabsTrigger value="preview" className="rounded-md py-2 text-sm">
                 Live Preview
@@ -60,9 +60,9 @@ export default function MarketingSpecialist() {
             <TabsContent value="navigation" className="mt-6">
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Improved CMS Navigation</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Task Management with Stream</h3>
                   <p className="text-gray-600 mb-4">
-                    Fast and intuitive navigation tailored to your division's content.
+                    Fast and intuitive navigation tailored to your division's projects and tasks.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-primary">
@@ -80,7 +80,7 @@ export default function MarketingSpecialist() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/stream_task_list.png?height=300&width=600"
                   alt="CMS Navigation Screenshot"
                   width={600}
                   height={300}
@@ -93,9 +93,13 @@ export default function MarketingSpecialist() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-primary">Enhanced Content Authoring Experience</h3>
                   <p className="text-gray-600 mb-4">
-                    Visual editing with real-time preview for better content creation.
+                    Visual editing with real-time preview and Sitecore Stream for better content creation.
                   </p>
                   <ul className="space-y-2">
+                  <li className="flex items-center gap-2 text-primary">
+                      <Cable className="w-5 h-5" />
+                      <span>Brand Aware AI for content creation and optimization</span>
+                    </li>
                     <li className="flex items-center gap-2 text-primary">
                       <Edit className="w-5 h-5" />
                       <span>WYSIWYG editor for intuitive content creation</span>
@@ -111,7 +115,7 @@ export default function MarketingSpecialist() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/pages.png?height=300&width=600"
                   alt="Content Authoring Screenshot"
                   width={600}
                   height={300}
@@ -142,7 +146,7 @@ export default function MarketingSpecialist() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/preview.png?height=300&width=600"
                   alt="Live Preview Screenshot"
                   width={600}
                   height={300}
@@ -173,7 +177,7 @@ export default function MarketingSpecialist() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/dam.png?height=300&width=600"
                   alt="DAM Integration Screenshot"
                   width={600}
                   height={300}
@@ -202,7 +206,7 @@ export default function MarketingSpecialist() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/publish.png?height=300&width=600"
                   alt="Authoring Workflow Screenshot"
                   width={600}
                   height={300}
