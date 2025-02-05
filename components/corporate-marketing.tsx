@@ -33,9 +33,9 @@ export default function CorporateMarketing() {
           <Image
             src="/marketing-team-member.png?height=400&width=600"
             alt="Corporate Marketing Dashboard"
-            width={600}
-            height={400}
-            className="h-full w-full object-cover"
+            width={150}
+            height={100}
+            className="mx-auto h-30 w-30 items-center justify-center md:h-full md:w-full object-cover"
           />
         </Card>
       </div>
