@@ -22,7 +22,7 @@ export default function Home() {
             alt="Logo"
             width={0}
             height={0}
-            className="w-1/6 p-8"
+            className="w-1/6 p-4"
           />
           <Image
             src="/logo.png"
