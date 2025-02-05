@@ -42,7 +42,7 @@ export default function MarketingDirector() {
       <Card className="border-none bg-white/80 shadow-lg backdrop-blur-sm">
         <CardContent className="p-6">
           <Tabs defaultValue="authoring" className="w-full">
-            <TabsList className="h-30 grid w-full items-stretch grid-cols-2 rounded-lg bg-secondary p-1 md:h-16 lg:grid-cols-4">
+            <TabsList className="h-30 grid w-full grid-cols-2 items-stretch rounded-lg bg-secondary p-1 md:h-16 lg:grid-cols-4">
               <TabsTrigger value="authoring" className="text-wrap rounded-md py-2 text-xs md:text-sm">
                 Simplified, AI Enabled Authoring
               </TabsTrigger>
