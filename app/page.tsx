@@ -8,12 +8,22 @@ import Image from "next/image"
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-subtle via-white to-gray-200">
+    
       <div className="container mx-auto p-4 py-8">
-        <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-primary">Sitecore's Intelligent DXP</h1>
+ 
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-primary">    
+       Sitecore's Intelligent DXP</h1>
         <p className="text-center text-sm md:text-lg mb-8 text-gray-600 ">
           Explore how Sitecore empowers different roles for Tri Pointe Homes
           </p>
           <div className="flex items-center justify-center pb-10">
+          <Image
+            src="/logo-sitecore.svg"
+            alt="Logo"
+            width={0}
+            height={0}
+            className="w-1/6 p-8"
+          />
           <Image
             src="/logo.png"
             alt="Logo"
@@ -21,6 +31,7 @@ export default function Home() {
             height={0}
             className="w-1/6"
           />
+
           </div>
    
         <Tabs defaultValue="specialist" className="w-full">
