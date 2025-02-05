@@ -43,51 +43,19 @@ export default function MarketingDirector() {
         <CardContent className="p-6">
           <Tabs defaultValue="preview" className="w-full">
             <TabsList className="grid w-full grid-cols-3 lg:grid-cols-5 rounded-lg bg-secondary p-1">
-              <TabsTrigger value="preview" className="rounded-md py-2 text-sm">
-                Content Preview
-              </TabsTrigger>
               <TabsTrigger value="authoring" className="rounded-md py-2 text-sm">
-                Simplified Authoring
+                Simplified, AI Enabled Authoring
               </TabsTrigger>
               <TabsTrigger value="data" className="rounded-md py-2 text-sm">
                 Data Consistency
               </TabsTrigger>
               <TabsTrigger value="workflow" className="rounded-md py-2 text-sm">
-                Publishing Workflow
+               AI Enabled Content and Campaign Workflows
               </TabsTrigger>
               <TabsTrigger value="training" className="rounded-md py-2 text-sm">
-                Integrated Training
+                Integrated Brand Copilot
               </TabsTrigger>
             </TabsList>
-            <TabsContent value="preview" className="mt-6">
-              <div className="grid md:grid-cols-2 gap-6 items-center">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Advanced Content Preview</h3>
-                  <p className="text-gray-600 mb-4">Comprehensive preview functionality for all authored content.</p>
-                  <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-primary">
-                      <LayoutDashboard className="w-5 h-5" />
-                      <span>Multi-device preview (desktop, tablet, mobile)</span>
-                    </li>
-                    <li className="flex items-center gap-2 text-primary">
-                      <Eye className="w-5 h-5" />
-                      <span>Time-based preview for scheduled content</span>
-                    </li>
-                    <li className="flex items-center gap-2 text-primary">
-                      <Users className="w-5 h-5" />
-                      <span>Personalization preview based on user segments</span>
-                    </li>
-                  </ul>
-                </div>
-                <Image
-                  src="/placeholder.svg?height=300&width=600"
-                  alt="Content Preview Screenshot"
-                  width={600}
-                  height={300}
-                  className="rounded-lg shadow-md"
-                />
-              </div>
-            </TabsContent>
             <TabsContent value="authoring" className="mt-6">
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div>
@@ -109,7 +77,7 @@ export default function MarketingDirector() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/pages.png?height=300&width=600"
                   alt="Authoring Interface Screenshot"
                   width={600}
                   height={300}
@@ -140,7 +108,7 @@ export default function MarketingDirector() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/page-designs.png?height=300&width=600"
                   alt="Data Consistency Screenshot"
                   width={600}
                   height={300}
@@ -151,7 +119,7 @@ export default function MarketingDirector() {
             <TabsContent value="workflow" className="mt-6">
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Efficient Publishing Workflow</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Efficient Content Workflows</h3>
                   <p className="text-gray-600 mb-4">Streamlined process for reviewing and publishing team content.</p>
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-primary">
@@ -169,7 +137,7 @@ export default function MarketingDirector() {
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/task-list.png?height=300&width=600"
                   alt="Publishing Workflow Screenshot"
                   width={600}
                   height={300}
@@ -180,14 +148,14 @@ export default function MarketingDirector() {
             <TabsContent value="training" className="mt-6">
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Integrated Training and Support</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Integrated Brand AI</h3>
                   <p className="text-gray-600 mb-4">
                     Built-in guidance and support to reduce reliance on external assistance.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-primary">
                       <LayoutDashboard className="w-5 h-5" />
-                      <span>Contextual help and tooltips throughout the CMS</span>
+                      <span>Brand Aware Copilots throughout the CMS</span>
                     </li>
                     <li className="flex items-center gap-2 text-primary">
                       <Eye className="w-5 h-5" />
@@ -195,12 +163,12 @@ export default function MarketingDirector() {
                     </li>
                     <li className="flex items-center gap-2 text-primary">
                       <Users className="w-5 h-5" />
-                      <span>AI-powered chatbot for instant support</span>
+                      <span>Task Management and AI Enabled Content Experimentation</span>
                     </li>
                   </ul>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/brand-assistant.png?height=300&width=600"
                   alt="Integrated Training Screenshot"
                   width={600}
                   height={300}
