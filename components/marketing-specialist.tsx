@@ -41,19 +41,19 @@ export default function MarketingSpecialist() {
         <CardContent className="p-6">
           <Tabs defaultValue="navigation" className="w-full">
             <TabsList className="grid w-full grid-cols-3 lg:grid-cols-5 rounded-lg bg-secondary p-1">
-              <TabsTrigger value="navigation" className="rounded-md py-2 text-sm">
+              <TabsTrigger value="navigation" className="rounded-md py-2 text-sm text-wrap">
                 AI Enabled Task Management
               </TabsTrigger>
-              <TabsTrigger value="authoring" className="rounded-md py-2 text-sm">
-                Content Authoring and Experimentation 
+              <TabsTrigger value="authoring" className="rounded-md py-2 text-sm text-wrap">
+                Content Authoring and Experimentation
               </TabsTrigger>
-              <TabsTrigger value="preview" className="rounded-md py-2 text-sm">
+              <TabsTrigger value="preview" className="rounded-md py-2 text-sm text-wrap">
                 Live Preview
               </TabsTrigger>
-              <TabsTrigger value="dam" className="rounded-md py-2 text-sm">
+              <TabsTrigger value="dam" className="rounded-md py-2 text-sm text-wrap">
                 DAM Integration
               </TabsTrigger>
-              <TabsTrigger value="workflow" className="rounded-md py-2 text-sm">
+              <TabsTrigger value="workflow" className="rounded-md py-2 text-sm text-wrap">
                 Authoring Workflow
               </TabsTrigger>
             </TabsList>
@@ -96,7 +96,7 @@ export default function MarketingSpecialist() {
                     Visual editing with real-time preview and Sitecore Stream for better content creation.
                   </p>
                   <ul className="space-y-2">
-                  <li className="flex items-center gap-2 text-primary">
+                    <li className="flex items-center gap-2 text-primary">
                       <Cable className="w-5 h-5" />
                       <span>Brand Aware AI for content creation and optimization</span>
                     </li>
